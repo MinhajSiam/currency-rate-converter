@@ -45,14 +45,14 @@ button {
 }
 
 button {
-    background-color: #007bff;
+    background-color: #2e2e2e;
     color: white;
     cursor: pointer;
     border: none;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #000000;
 }
 
 .result {
@@ -64,4 +64,13 @@ button:hover {
 #converted-amount {
     font-size: 18px;
     font-weight: bold;
+}
+
+#from-currency,
+#to-currency {
+    width: 230px;
+}
+
+.input-group label {
+    margin-right: 10px;
 }
